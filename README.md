@@ -6,7 +6,7 @@ Site built with HTML, CSS, and Materialize.
 
 ## **Demo**
 
-You can see the demo live [here](http://trode.netlify.app/).
+You can see the demo live [here](https://afelipch.github.io/DevNews/).
 
 ## **Author**
 
