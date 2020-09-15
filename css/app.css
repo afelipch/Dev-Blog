@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 500px;
+}
+
+header nav {
+    height: 100px;
+    background: white;
+    box-shadow: none;
+}
+
+nav .brand-logo {
+    height: 100px;
+    left: 15%;
+    top: 10px;
+}
+
+nav .brand-logo img {
+    width: 200px;
+}
+
+header nav ul {
+    height: 100px;
+}
+
+header ul a {
+    color: grey;
+}
+
+.header-main-pic {
+    width: 100%;
+    height: 400px;
+    background-image: url('../assets/banner1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*MAIN*/
+
+.input-field.input-container {
+    height: 100px;
+    float: none;
+    display: flex;
+    margin: 0 auto;
+}
+
+.input-field > #search {
+    margin-top: 25px;
+}
+
+.input-container i {
+    margin-top: 45px;
+    margin-right: 15px;
+}
+
+/* END OF MAIN */
+
+/* FOOTER */
+
+footer.page-footer {
+    height: 80px;
+    background: #000;
+    bottom: 0;
+    color: white;
+    text-align: center;
+}
+
+/* END OF FOOTER */
+
+/* ENROLL */
+
+.enroll-header {
+    height: 300px;
+}
+
+/* END OF ENROLL */
+
+/* ABOUT */
+
+.about-text {
+    margin: 5em;
+}
+
+/* CONTACT */
+
+.contact-header {
+    height: 150px;;
+}
+
+.main-contact {
+    margin: 40px auto;
+}
